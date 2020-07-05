@@ -7,15 +7,18 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    background: 'grey',
     flexGrow: 1,
     
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+  marginRight: theme.spacing(2),
   },
+
   title: {
     textAlign: "center",
     flexGrow: 1,
+    
   },
 
 }));
